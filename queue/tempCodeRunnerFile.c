@@ -1,0 +1,1 @@
+printf("%d id deleted ",queue[front]);
