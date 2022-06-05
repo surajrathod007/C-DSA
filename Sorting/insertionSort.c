@@ -25,24 +25,6 @@ void main()
 
 void insertion_sort(int a[], int n)
 {
-/*
-    int i,j,c,temp;
-    for(i = 2; i<=n; i++){
-
-        temp = a[i];
-        c = i -1;
-
-        while((temp<a[c]) && (c>0))
-        {
-
-            a[c+1] = a[c];
-            c--;
-        }
-
-        a[c+1] = temp;
-    }
-
-    */
 
    int i,j,c,temp;
 

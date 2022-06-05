@@ -20,61 +20,6 @@ int pop()
 void main()
 {
 
-
-    
-/*
-    char exp[20];
-    char *e;
-    int op1,op2,n,num;
-
-    printf("\nEnter postfix expression : ");
-    scanf("%s",exp);
-
-    e = exp;
-
-    while(*e!='\0')
-    {
-
-        if(isdigit(*e))
-        {
-            num = *e - 48;
-            push(num);
-        }else{
-
-            op1 = pop();
-            op2 = pop();
-
-            switch (*e)
-            {
-            case '+' :
-                n = op2+op1;
-                break;
-
-            case '-' :
-                n = op2 - op1;
-                break;
-
-            case '*' :
-                n = op2 * op1;
-                break;
-            
-            default:
-                break;
-            }
-
-            push(n);
-        }
-
-        e++;
-
-        
-    }
-
-
-    printf("\n The result of exp is : %s is = %d ",exp,pop());
-
-    */
-
    char exp[20];
    char *e;
    int op1,op2,n,num;

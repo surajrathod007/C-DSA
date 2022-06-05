@@ -29,28 +29,6 @@ void main()
 void selection_sort()
 {
 
-/*
-    int i,j,min,temp;
-
-    for(i = 0; i<n; i++){
-
-        min = i;
-
-        for(j = i + 1 ;j<n; j++){
-
-            if(arr[j]<arr[min]){
-                min= j;
-            }
-        }
-
-        temp = arr[i];
-        arr[i] = arr[min];
-        arr[min] = temp;
-
-    }
-
-    */
-
    int i,j,min,temp;
 
    for( i = 0 ; i<n ; i++){

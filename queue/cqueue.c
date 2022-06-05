@@ -48,21 +48,7 @@ void main()
 void insertq(int queue[],int item)
 {
 
-  /*  if((front == 0 && rear == size-1) || (front == rear+1)){
-
-        printf("\nQueue overflow");
-        return;
-    }else if(front == -1 && rear == -1)
-    {
-        front=rear = 0;
-    }else if(rear == size-1 && front>0)
-    {
-        rear = 0;
-    }else{
-        rear++;
-    }
-
-    queue[rear] = item;  */
+  
 
 
     if(front==rear+1){

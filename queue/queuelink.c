@@ -66,21 +66,7 @@ void enqueue()
         rear = ptr;
         rear->link = NULL;
     }
-    /*
-
-    ptr->data = item;
-    if((rear==NULL))
-    {
-        rear = ptr;
-        rear->link = ptr;
-    }else{
-
-        ptr->link = rear->link;
-        rear->link = ptr;
-        rear = ptr;
-    }
-
-    */
+    
 }
 
 void dequeue()
